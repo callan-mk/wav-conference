@@ -27,15 +27,5 @@ compareLoud prints the results of a comparison of relative loudness of two given
 
 
 Notes:
-I included a function to make shorter clips, as we discussed. However, I did not end up creating functions to remove sound withing a specific
-	frequency range from given .wav file, or to calculate the rms for a specific frequency range as, upon further investigation, I realized
-	that doing so would require a much deeper understanding of fourier transforms than I currently possess. (I've never been all that great
-	at trigonometry to be entirely honest.) Given this very significant roadblock, I decided that it would be more productive to focus on
-	getting a working scaled loudness comparison function operational, as demonstrated in test_wav_loudness. I hope this is a reasonable 
-	substitution on my part.
-I ran into a lot of dead ends in my research on this project as, unsurprisingly, audio encoding is very complex! I hope my results enclosed herein
-	are satisfactory, at least in showing what I've learned throughout the process of researching this topic.
-My zip file includes 5 .wav files: the three full-length songs I used to test various functions throughout this project, and two sample clips
-	created from two of those songs using centerClip.
-The folder waveform_analysis_master is included for reference purposes, as I used this package both for helper functions and as reference material,
-	and so I thought it might be useful to include the code from the package in my submission.
+I included a function to make shorter clips, as discussed. I decided that it would be most productive to focus on getting a working scaled loudness comparison function operational, as 	demonstrated in test_wav_loudness. 
+The folder waveform_analysis_master is not mine, but is included as I used this package both for helper functions and as reference material.
